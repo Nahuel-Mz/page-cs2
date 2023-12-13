@@ -314,6 +314,20 @@ footer p {
   .hero_info h1 {
     font-size: 1.5rem;
   }
+
+  .start span {
+    padding: 5px 5px;
+  }
+
+  .overpass img,
+  .nuke img,
+  .dust img,
+  .mirage img,
+  .inferno img,
+  .anubis img {
+    height: 50px;
+    width: 50px;
+  }
 }
 
 @media (max-width: 390px) {
