@@ -39,6 +39,15 @@ header {
   align-items: center;
 }
 
+.navegation i {
+  font-size: 30px;
+  display: none;
+}
+
+#toggle-menu {
+  display: none;
+}
+
 .list-nav {
   display: flex;
   list-style: none;
@@ -327,6 +336,27 @@ footer p {
   .anubis img {
     height: 50px;
     width: 50px;
+  }
+
+  .navegation ul {
+    background-color: var(--bg--secondary);
+    width: 100%;
+    height: calc(100vh - 65px);
+    position: absolute;
+    top: 65px;
+    left: 0px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: none;
+  }
+
+  .navegation i {
+    display: block;
+  }
+
+  #toggle-menu:checked ~ .list-nav {
+    display: flex;
   }
 }
 
