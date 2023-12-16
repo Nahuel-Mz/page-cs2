@@ -293,6 +293,16 @@ footer p {
     line-height: 30px;
   }
 
+  .hero_info h1 {
+    width: 100%;
+    font-size: 2.4rem;
+  }
+
+  .hero_info p {
+    width: 100%;
+    text-align: center;
+  }
+
   .nuke,
   .anubis,
   .dust,
@@ -310,6 +320,7 @@ footer p {
   .hero_video iframe {
     width: 200px;
     height: 200px;
+    display: none;
   }
 
   footer p {
@@ -349,6 +360,10 @@ footer p {
     align-items: center;
     justify-content: center;
     display: none;
+
+    .container_maps {
+      width: 100%;
+    }
   }
 
   .navegation i {
